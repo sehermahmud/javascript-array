@@ -8,3 +8,19 @@ body {
     color: palevioletred;
     text-align: center;
 }
+
+.demo {
+    font-family: 'Merienda One', cursive;
+}
+
+.github {
+    color: hotpink;
+    text-decoration: none;
+    font-family: 'Merienda One', cursive;
+}
+  
+.github:hover,
+.github:active {
+    color: red;
+    text-decoration: none;
+}

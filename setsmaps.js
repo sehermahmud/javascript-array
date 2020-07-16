@@ -1,3 +1,11 @@
+// Please note that you might encounter with problems in the console if you do! so comon 
+// everything in the app.js and setsmaps.js and work on that file which you will work and then 
+// test it out one by one!
+
+
+
+// What is a Set? Example code: (Comon this out if this is Comon!)
+
 // const ids = new Set(['Hi', 'from', 'set!']);
 // ids.add(2);
 // if (ids.has('Hi')) {
@@ -8,8 +16,12 @@
 //   console.log(entry[0]);
 // }
 
-// const person1 = { name: 'Max' };
-// const person2 = { name: 'Manuel' };
+
+
+// What is a Map? Example code: (Comon this out if this is Comon!)
+
+// const person1 = { name: 'Zizali' };
+// const person2 = { name: 'Sanena' };
 
 // const personData = new Map([[person1, [{ date: 'yesterday', price: 10 }]]]);
 
@@ -32,7 +44,11 @@
 
 // console.log(personData.size);
 
-let person = {name: 'Max'};
+
+
+// What is a WeakSet() in Set? Example code: (Comon this out if this is Comon!)
+
+let person = {name: 'Zizali'};
 const persons = new WeakSet();
 persons.add(person);
 
@@ -41,9 +57,13 @@ persons.add(person);
 
 console.log(persons);
 
+
+
+// What is a WeakMap() in Map? Example code: (Comon this out if this is Comon!)
+
 const personData = new WeakMap();
 personData.set(person, 'Extra info!');
 
 person = null;
 
-console.log(personData);
+console.log(personData); 

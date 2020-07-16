@@ -14,7 +14,7 @@
 // console.log(arrayListItems);
 
 // const hobbies = ['Cooking', 'Sports'];
-// const personalData = [12, 'Seher', {moreDetail: []}];
+// const personalData = [14, 'Zizali', {moreDetail: []}];
 
 // const analyticsData = [[1, 1.6], [-5.4, 2.1]];
 
@@ -55,19 +55,19 @@
 // console.log(testResults.includes(10.99));
 // console.log(testResults.indexOf(10.99) !== -1);
 
-// const personData = [{ name: 'Seher' }, { name: 'Joita' }];
-// console.log(personData.indexOf({ name: 'Joita' }));
+// const personData = [{ name: 'Zizali' }, { name: 'Sanena' }];
+// console.log(personData.indexOf({ name: 'Sanena' }));
 
-// const joita = personData.find((person, idx, persons) => {
-//   return person.name === 'Joita';
+// const Sanena = personData.find((person, idx, persons) => {
+//   return person.name === 'Sanena';
 // });
 
-// joita.name = 'Seher';
+// Sanena.name = 'Sanena';
 
-// console.log(joita, personData);
+// console.log(Sanena, personData);
 
 // const maxIndex = personData.findIndex((person, idx, persons) => {
-//   return person.name === 'Seher';
+//   return person.name === 'Zizali';
 // });
 
 // console.log(maxIndex);
@@ -95,7 +95,7 @@
 //   return priceObj;
 // });
 
-// // console.log(prices, taxAdjustedPrices);
+// console.log(prices, taxAdjustedPrices);
 
 // const sortedPrices = prices.sort((a, b) => {
 //   if (a > b) {
@@ -131,28 +131,28 @@
 // transformedData[1] = +transformedData[1];
 // console.log(transformedData);
 
-// const nameFragments = ['Seher', 'Mahmud'];
+// const nameFragments = ['Zizali', 'Star'];
 // const name = nameFragments.join(' ');
 // console.log(name);
 
 // const copiedNameFragments = [...nameFragments];
-// nameFragments.push('Mr');
+// nameFragments.push('Mrs');
 // console.log(nameFragments, copiedNameFragments);
 
 // console.log(Math.min(...prices));
 
-// const persons = [{ name: 'Seher', age: 12 }, { name: 'Joita', age: 12 }];
+// const persons = [{ name: 'Zizali', age: 14 }, { name: 'Kai', age: 16 }];
 // const copiedPersons = persons.map(person => ({
 //   name: person.name,
 //   age: person.age
 // }));
 
-// persons.push({ name: 'Anna', age: 29 });
-// persons[0].age = 31;
+// persons.push({ name: 'Sanena', age: 14 });
+// persons[0].age = 14;
 
 // console.log(persons, copiedPersons);
 
-const nameData = ['Seher', 'Mahmud', 'Mrs', 12];
+const nameData = ['Zizali', 'Star', 'Mrs', 14];
 // const firstName = nameData[0];
 // const lastName = nameData[1];
 
