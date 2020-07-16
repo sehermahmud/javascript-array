@@ -14,7 +14,7 @@
 // console.log(arrayListItems);
 
 // const hobbies = ['Cooking', 'Sports'];
-// const personalData = [30, 'Max', {moreDetail: []}];
+// const personalData = [12, 'Seher', {moreDetail: []}];
 
 // const analyticsData = [[1, 1.6], [-5.4, 2.1]];
 
@@ -55,19 +55,19 @@
 // console.log(testResults.includes(10.99));
 // console.log(testResults.indexOf(10.99) !== -1);
 
-// const personData = [{ name: 'Max' }, { name: 'Manuel' }];
-// console.log(personData.indexOf({ name: 'Manuel' }));
+// const personData = [{ name: 'Seher' }, { name: 'Joita' }];
+// console.log(personData.indexOf({ name: 'Joita' }));
 
-// const manuel = personData.find((person, idx, persons) => {
-//   return person.name === 'Manuel';
+// const joita = personData.find((person, idx, persons) => {
+//   return person.name === 'Joita';
 // });
 
-// manuel.name = 'Anna';
+// joita.name = 'Seher';
 
-// console.log(manuel, personData);
+// console.log(joita, personData);
 
 // const maxIndex = personData.findIndex((person, idx, persons) => {
-//   return person.name === 'Max';
+//   return person.name === 'Seher';
 // });
 
 // console.log(maxIndex);
@@ -131,7 +131,7 @@
 // transformedData[1] = +transformedData[1];
 // console.log(transformedData);
 
-// const nameFragments = ['Max', 'Schwarz'];
+// const nameFragments = ['Seher', 'Mahmud'];
 // const name = nameFragments.join(' ');
 // console.log(name);
 
@@ -141,7 +141,7 @@
 
 // console.log(Math.min(...prices));
 
-// const persons = [{ name: 'Max', age: 30 }, { name: 'Manuel', age: 31 }];
+// const persons = [{ name: 'Seher', age: 12 }, { name: 'Joita', age: 12 }];
 // const copiedPersons = persons.map(person => ({
 //   name: person.name,
 //   age: person.age
@@ -152,7 +152,7 @@
 
 // console.log(persons, copiedPersons);
 
-const nameData = ['Max', 'Schwarz', 'Mr', 30];
+const nameData = ['Seher', 'Mahmud', 'Mrs', 12];
 // const firstName = nameData[0];
 // const lastName = nameData[1];
 
